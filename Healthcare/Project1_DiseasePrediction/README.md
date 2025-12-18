@@ -40,3 +40,19 @@ This project demonstrates end‑to‑end data cleaning, imputation, and modeling
 - Cleaned dataset with no biologically impossible values (e.g., BMI = 0).
 - Baseline model accuracy ~75–80% (to be refined).
 - Dashboard showing risk factors and prediction outcomes.
+
+## 🧩 Workflow Diagram
+![Diabetes Cleaning Workflow](../images/diabetes_cleaning_workflow.png)
+
+The workflow includes Input, Browse, Summarize, Formula, Join, Select, and Output tools.
+
+data-analytics-portfolio/
+│── README.md                        # Portfolio overview (root)
+│── Healthcare/
+│   └── Project1_DiseasePrediction/
+│       ├── README.md                # Project-specific documentation
+│       ├── data/
+│       ├── workflows/
+│       ├── notebooks/
+│       └── dashboard/
+│       └── images/
