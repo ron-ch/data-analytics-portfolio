@@ -54,3 +54,14 @@ Healthcare/Project1_DiseasePrediction/
 - Experimenting with advanced imputation (KNN, regression).
 - Comparing multiple ML models.
 - Publishing dashboard screenshots in portfolio.
+
+This is the Structure:
+data-analytics-portfolio/
+│── README.md                # Portfolio overview
+│── Healthcare/
+    └── Project1_DiseasePrediction/
+        ├── README.md        # Project-specific documentation
+        ├── data/
+        ├── workflows/
+        ├── notebooks/
+        └── dashboard/
