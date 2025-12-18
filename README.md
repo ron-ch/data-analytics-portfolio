@@ -43,6 +43,12 @@ This project demonstrates end‑to‑end data cleaning, imputation, and modeling
 - Dashboard showing risk factors and prediction outcomes.
 
 ## 📂 Folder Structure
+Healthcare/Project1_DiseasePrediction/ 
+│── data/ # Raw and cleaned CSVs 
+│── workflows/ # Alteryx workflows (.yxmd) 
+│── notebooks/ # Python notebooks (.ipynb) 
+│── dashboard/ # Power BI files (.pbix) 
+│── README.md # Project documentation
 
 ## 🚀 Next Steps
 - Experimenting with advanced imputation (KNN, regression).
