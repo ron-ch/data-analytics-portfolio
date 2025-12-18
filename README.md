@@ -1,46 +1,47 @@
 # Data Analytics Portfolio - Ronald Ch
-# Project 1 – Disease Prediction (Diabetes Dataset)
 
-## 📌 Problem Statement
-Predict the likelihood of diabetes in patients based on clinical features.  
-This project demonstrates end‑to‑end data cleaning, imputation, and modeling using the **Pima Indians Diabetes Dataset** (768 records).
+## 👩‍⚕️ About Me
+Project Support Analyst with over 10 years experience, now expanding into **data analytics and workflow automation**.  
+Certified Project Management Professional - PMI PMP.
+Currently building a **multi‑sector analytics portfolio** (Healthcare, Finance, Oil & Gas, Retail) to integrate project management expertise with data‑driven insights.
 
-## 📊 Dataset
-- **Source**: Kaggle – Diabetes Dataset by Mehmet Akturk (mathchi)  
-- **Size**: 768 rows × 9 columns  
-- **Features**:
-  - Pregnancies
-  - Glucose
-  - BloodPressure
-  - SkinThickness
-  - Insulin
-  - BMI
-  - DiabetesPedigreeFunction
-  - Age
-  - Outcome (target: 0 = non‑diabetic, 1 = diabetic)
+---
 
-## 🛠 Tools & Workflow
-- **Alteryx Designer**: Data cleaning, imputation, workflow automation
-- **Python (Pandas, Scikit‑Learn)**: Modeling and evaluation
-- **Power BI**: Dashboard visualization
-- **Git & GitHub**: Version control and portfolio publishing
+## 📂 Portfolio Structure
+data-analytics-portfolio/ 
+│── README.md # Portfolio overview 
+│── Healthcare/ 
+│ └── Project1_DiseasePrediction/ # Diabetes dataset cleaning & modeling 
+│── Finance/ 
+│ └── Project2_... # (upcoming) 
+│── OilGas/ 
+│ └── Project3_... # (upcoming) 
+│── Retail/ 
+│ └── Project4_... # (upcoming)
 
-## 🔄 Process Steps
-1. **Input Data** – Load raw CSV (768 records).
-2. **Browse** – Inspect dataset, identify hidden missing values (zeros).
-3. **Summarize** – Compute median values for Glucose, BloodPressure, SkinThickness, Insulin, BMI.
-4. **Formula + Join** – Add JoinKey, merge medians into dataset.
-5. **Formula** – Replace 0’s with median values.
-6. **Select** – Clean schema, drop helper fields.
-7. **Browse** – Verify cleaned dataset.
-8. **Output Data** – Export `data_diabetes_clean.csv`.
-9. **Modeling** – Train baseline classifiers (Logistic Regression, Random Forest).
-10. **Dashboard** – Visualize patient risk distribution in Power BI.
+## 🛠 Tools & Technologies
+- **Alteryx Designer** – workflow automation, data cleaning, imputation
+- **Python (Pandas, NumPy, Scikit‑Learn)** – modeling, evaluation
+- **SQL** – querying, joins, aggregations
+- **Power BI** – dashboards and visualization
+- **Git & GitHub** – version control and portfolio publishing
 
-## ✅ Results
-- Cleaned dataset with no biologically impossible values (e.g., BMI = 0).
-- Baseline model accuracy ~75–80% (to be refined).
-- Dashboard showing risk factors and prediction outcomes.
+---
+
+## 🚀 Current Projects
+- **Healthcare – Project 1: Disease Prediction (Diabetes Dataset)**  
+  - Cleaned 768‑record dataset (Pima Indians Diabetes)  
+  - Median imputation for hidden missing values (zeros)  
+  - Baseline classification models (Logistic Regression, Random Forest)  
+  - Dashboard visualizing patient risk distribution
+
+---
+
+## 📈 Roadmap
+- **Healthcare**: Expand to Heart Disease dataset (Project 2)  
+- **Finance**: Build credit risk and fraud detection models  
+- **Oil & Gas**: Predictive maintenance and production optimization  
+- **Retail**: Customer segmentation and sales forecasting
 
 ## 📂 Folder Structure
 Healthcare/Project1_DiseasePrediction/ 
