@@ -133,3 +133,23 @@ data-analytics-portfolio/
 │       ├── notebooks/
 │       └── dashboard/
 │       └── images/
+
+data-analytics-portfolio/Healthcare/diabetes-prediction/
+│
+├── README.md                  # Root-level project summary
+├── requirements.txt            # Dependencies
+├── .gitignore                  # Ignore checkpoints, envs, etc.
+│
+├── notebooks/
+│   └── diabetes_prediction.ipynb   # Full modeling workflow
+│
+├── images/
+│   ├── Alteryx_Workflow_Images/    # Organized Alteryx workflow screenshots
+│   │   ├── workflow1.png
+│   │   ├── workflow2.png
+│   │   └── workflow3.png
+│   │
+│   └── Python_Images/              # Visuals from Python (plots, charts)
+│       ├── roc_curve.png
+│       ├── calibration_curve.png
+│       └── comparison_chart.png
