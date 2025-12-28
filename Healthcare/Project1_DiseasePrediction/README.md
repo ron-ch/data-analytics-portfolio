@@ -24,7 +24,7 @@ This project demonstrates end‑to‑end data cleaning, imputation, and modeling
 - **Power BI**: Dashboard visualization
 - **Git & GitHub**: Version control and portfolio publishing
 
-## 🔄 Process Steps
+## 🔄 Process Steps (Alteryx)
 1. **Input Data** – Load raw CSV (768 records).
 2. **Browse** – Inspect dataset, identify hidden missing values (zeros).
 3. **Summarize** – Compute median values for Glucose, BloodPressure, SkinThickness, Insulin, BMI.
@@ -45,6 +45,83 @@ This project demonstrates end‑to‑end data cleaning, imputation, and modeling
 ![Diabetes Cleaning Workflow](../images/diabetes_cleaning_workflow.png)
 
 The workflow includes Input, Browse, Summarize, Formula, Join, Select, and Output tools.
+
+## 📊 Modeling and Evaluation (Python)
+- Logistic Regression baseline accuracy: ~75–80%
+- Random Forest baseline accuracy: ~78–82%
+- Evaluation metrics included Precision, Recall, F1-score, and ROC curve
+
+## Sections:
+Data Import: Load data_diabetes_clean.csv
+Exploratory Analysis: Quick stats, distributions
+Train/Test Split: 70/30 or 80/20
+Baseline Models: Logistic Regression, Random Forest
+Evaluation Metrics: Accuracy, Precision, Recall, F1, ROC Curve
+
+# Diabetes Prediction: Logistic Regression vs Random Forest
+
+## 📌 Project Overview
+This project applies machine learning to predict diabetes using patient health metrics.  
+Two models were compared:
+- **Logistic Regression** → interpretable, transparent coefficients.
+- **Random Forest** → robust, nonlinear, higher recall and accuracy.
+
+The notebook demonstrates end-to-end workflow: preprocessing, modeling, evaluation, ROC curves, and calibration curves.
+
+---
+
+## ⚙️ Workflow
+1. **Data Preprocessing**
+   - Class balance check
+   - Scaling for Logistic Regression
+   - Exploratory analysis (histograms, correlations)
+
+2. **Modeling**
+   - Logistic Regression baseline + threshold tuning
+   - Random Forest with class balancing + feature importance
+
+3. **Evaluation**
+   - Confusion matrices
+   - Classification reports
+   - ROC curve comparison (AUC)
+   - Calibration curves (probability reliability)
+
+4. **Comparison**
+   - Side-by-side metrics table
+   - Grouped bar charts for precision, recall, F1, accuracy
+
+---
+
+## 📊 Key Results
+- Logistic Regression: Accuracy **0.71**, Diabetic Recall **0.50**, better calibration.
+- Random Forest: Accuracy **0.75**, Diabetic Recall **0.78**, stronger discrimination (AUC ~0.80).
+- ROC curves show Random Forest separates classes better.
+- Calibration curves show Logistic Regression provides more reliable probabilities.
+
+---
+
+## 🎯 Recruiter Narrative
+This project demonstrates:
+- Ability to balance **interpretability vs robustness**.
+- Use of **threshold tuning** to prioritize healthcare-specific metrics.
+- Advanced evaluation with **ROC and calibration curves**.
+- Clear communication of trade-offs for recruiter and stakeholder audiences.
+
+---
+
+## 📂 Repository Structure
+- `notebooks/diabetes_prediction.ipynb` → Full modeling workflow.
+- `data/` → Dataset.
+- `README.md` → Project summary (this file).
+
+---
+
+## 🚀 Next Steps (Not included in this project)
+- Add ROC and PR curves for deeper evaluation.
+- Explore calibration methods (Platt scaling, isotonic regression).
+- Extend to other models (XGBoost, SVM) for comparison.
+
+---
 
 data-analytics-portfolio/
 │── README.md                        # Portfolio overview (root)
